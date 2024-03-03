@@ -662,7 +662,7 @@ int main()
 
         driver = sql::mysql::get_mysql_driver_instance();
         con = driver->connect("tcp://localhost:3306",
-            "root", "Love24@1380");   // Enter your local host password here
+            "root", "");   // Enter your local host password here
 
         sql::Statement* stmt = con->createStatement();
 
